@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Edeiver Barranco — Desarrollador Front-End & Mobile",
+    "description": "Desarrollador Front-End y Mobile especializado en React Native, Expo y React.js, construyendo productos de pagos, fintech y cripto."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "work": "Proyectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "kicker": "Desarrollador Front-End & Mobile",
+    "title": "Edeiver Barranco",
+    "subtitle": "Construyo productos móviles y web rápidos y confiables para fintech, pagos y cripto — con React Native, Expo y React.js.",
+    "location": "Barranquilla, Colombia",
+    "ctaWork": "Ver mis proyectos",
+    "ctaContact": "Hablemos"
+  },
+  "about": {
+    "kicker": "Sobre mí",
+    "title": "Ingeniero de Sistemas enfocado en producto",
+    "body": "Soy Desarrollador Front-End y Mobile con más de 7 años de experiencia llevando apps a producción en fintech, pagos y cripto. He liderado el desarrollo móvil de plataformas de pago, construido apps white-label adaptadas a distintas marcas, integrado pasarelas de pago y cripto, y llevado una billetera Bitcoin de escala nacional desde cero hasta su primer lanzamiento. Me importa que los releases sean confiables, la coordinación con backend sea limpia y las interfaces se sientan naturales.",
+    "stats": [
+      { "value": "7+", "label": "Años de experiencia" },
+      { "value": "4", "label": "Empresas y clientes" },
+      { "value": "1", "label": "Producto de escala nacional" }
+    ]
+  },
+  "experience": {
+    "kicker": "Trayectoria",
+    "title": "Experiencia",
+    "items": [
+      {
+        "company": "Cobru S.A.S.",
+        "role": "Desarrollador Front-End / Mobile",
+        "period": "Ene 2023 — Ago 2026",
+        "points": [
+          "Lideré el desarrollo móvil de aplicaciones de pago, soluciones white-label y productos con funcionalidad de criptomonedas.",
+          "Desarrollé y mantuve las apps móviles de Cobru y sus versiones white-label, adaptando el producto a distintas marcas y requerimientos de negocio.",
+          "Implementé integraciones de pagos y cripto, guiando a empresas cliente en los requerimientos técnicos de integración.",
+          "Gestioné releases y despliegues en las tiendas, coordinando con los equipos de backend para resolver bugs en producción en flujos de pagos y activos digitales."
+        ]
+      },
+      {
+        "company": "Trixel S.A.S.",
+        "role": "Desarrollador Front-End",
+        "period": "2020 — 2022",
+        "points": [
+          "Desarrollé y mantuve aplicaciones front-end y móviles con React, React Native, Expo y JavaScript.",
+          "Trabajé de la mano con los equipos de backend para integrar funcionalidades de punta a punta, desplegué releases y di soporte continuo en producción."
+        ]
+      },
+      {
+        "company": "Athena Bitcoin — Billetera Nacional",
+        "role": "Desarrollador Front-End (Proyecto de cliente vía Trixel S.A.S.) · San Salvador, El Salvador",
+        "period": "Jun 2021 — Dic 2021",
+        "points": [
+          "Contratado para construir la primera versión de una billetera Bitcoin para el Gobierno de El Salvador, dentro de la iniciativa nacional de adopción de Bitcoin del país.",
+          "Desarrollé el front-end y la funcionalidad móvil de la app con React Native, Expo y React, coordinando con el equipo de backend de punta a punta y brindando soporte continuo."
+        ]
+      },
+      {
+        "company": "Royal Films S.A.S.",
+        "role": "Desarrollador Web",
+        "period": "Jun 2019 — Dic 2019",
+        "points": [
+          "Desarrollé interfaces web y funcionalidades de software basadas en la web usando JavaScript y React."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "kicker": "Proyectos destacados",
+    "title": "Apps que he construido",
+    "viewCode": "Ver código",
+    "viewDemo": "Demo en vivo",
+    "comingSoon": "Capturas próximamente",
+    "viewAll": "Ver todas las capturas",
+    "viewDetail": "Ver detalle completo",
+    "featuresLabel": "Lo que incluye",
+    "stackLabel": "Stack técnico",
+    "items": {
+      "pasameApp": {
+        "name": "Pásame",
+        "tagline": "Billetera fintech multi-moneda",
+        "description": "Un concepto de app fintech en React Native/Expo: tarjeta premium, balances en múltiples monedas (USD, COP, BTC), transferencias instantáneas a contactos frecuentes y depósitos vía banco, tarjeta, Apple Pay o cripto — con modo claro y oscuro completamente diseñados.",
+        "tags": ["React Native", "Expo", "React Navigation", "Fintech", "Modo oscuro"],
+        "features": [
+          "Tarjeta premium con vencimiento y CVV, con acabado en gradiente",
+          "Balances multi-moneda (USD, COP, BTC) en una sola vista",
+          "Transferencias instantáneas a contactos frecuentes",
+          "Depósitos vía banco, tarjeta, Apple Pay o cripto",
+          "Modo claro y oscuro diseñados por completo, no solo invertidos",
+          "Navegación fluida entre pantallas con React Navigation"
+        ],
+        "stack": ["React Native", "Expo", "React Navigation", "JavaScript"]
+      },
+      "wallet": {
+        "name": "Wallet",
+        "tagline": "Billetera cripto glassmorphic",
+        "description": "Una billetera móvil minimalista con estética glassmorphic y una interfaz oscura y premium inspirada en fintech. Envía y recibe dinero con códigos QR, revisa el historial de transacciones y recibe feedback animado en la app — respaldado por una capa de API simulada.",
+        "tags": ["React Native", "Expo", "Glassmorphism", "React Context"],
+        "features": [
+          "Balance en tiempo real respaldado por estado global compartido",
+          "Enviar dinero con destinatario, monto y nota, validando saldo insuficiente",
+          "Recibir dinero con código QR y dirección copiable",
+          "Historial de transacciones con estilos de ingreso y egreso",
+          "Notificaciones toast animadas para confirmaciones y errores",
+          "Capa de API simulada para probar estados de carga sin backend real"
+        ],
+        "stack": ["React Native", "Expo", "React Navigation", "expo-linear-gradient", "expo-blur", "React Context"]
+      },
+      "kuiper": {
+        "name": "Kuiper (Hércules)",
+        "tagline": "Plataforma de entrenamiento con IA",
+        "description": "Una app web de entrenamiento de fuerza construida desde el uso real en gimnasio: catálogo de ejercicios con detalle técnico, sesiones guiadas secuenciadas por lógica biomecánica, sugerencias de peso deterministas a partir del historial registrado, e insights de sesión opcionales potenciados por Claude — totalmente bilingüe con next-intl.",
+        "tags": ["Next.js 15", "React 19", "next-intl", "API de Claude"],
+        "features": [
+          "Sesión de entrenamiento guiada set por set, con temporizador de descanso y panel de técnica",
+          "Sugerencias de peso deterministas a partir del historial real (sin IA, sin inventar datos)",
+          "Catálogo de ejercicios como entidades relacionales: técnica, errores comunes, alternativas por equipo",
+          "Dashboard con resumen de la última sesión y actividad reciente",
+          "Progreso: sesiones totales, volumen acumulado y progresión de peso por ejercicio",
+          "Respaldo local: exporta e importa todo el historial como JSON",
+          "Bilingüe ES/EN completo, incluyendo el catálogo de ejercicios",
+          "Insight de sesión opcional potenciado por Claude (Haiku 4.5), basado solo en datos reales"
+        ],
+        "stack": ["Next.js 15", "React 19", "Tailwind CSS 4", "next-intl", "Claude API", "Turbopack"]
+      }
+    }
+  },
+  "skills": {
+    "kicker": "Herramientas",
+    "title": "Habilidades",
+    "groups": [
+      { "label": "Mobile", "items": ["React Native", "Expo"] },
+      { "label": "Web", "items": ["React.js", "JavaScript"] },
+      { "label": "Integraciones", "items": ["REST / API", "Integraciones de pago", "Integraciones cripto", "Coordinación con backend"] },
+      { "label": "Entrega", "items": ["App Store", "Google Play", "Resolución de incidentes en producción"] },
+      { "label": "Producto", "items": ["Pagos", "Fintech", "Cripto / Web3", "Apps white-label"] },
+      { "label": "Seguridad", "items": ["Buenas prácticas de desarrollo seguro (2024)"] },
+      { "label": "Educación", "items": ["Ingeniería de Sistemas — Universidad de la Costa (CUC), 2020"] },
+      { "label": "Certificaciones", "items": ["Diplomado en Gestión de Proyectos (120h), 2026", "Desarrollo Seguro (36h), 2024"] },
+      { "label": "Idiomas", "items": ["Español — Nativo", "Inglés — Profesional"] }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Construyamos algo confiable",
+    "body": "Abierto a nuevas oportunidades en desarrollo mobile y front-end — especialmente en productos de fintech, pagos y cripto.",
+    "cta": "Escríbeme",
+    "resume": "Descargar CV"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js, desplegado en Vercel."
+  }
+}
