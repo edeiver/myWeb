@@ -103,7 +103,8 @@
         "description": "Una billetera móvil minimalista con estética glassmorphic y una interfaz oscura y premium inspirada en fintech. Envía y recibe dinero con códigos QR, revisa el historial de transacciones y recibe feedback animado en la app — respaldado por una capa de API simulada.",
         "tags": ["React Native", "Expo", "Glassmorphism", "React Context"],
         "features": [
-          "Balance en tiempo real respaldado por estado global compartido",
+          "Balance en tiempo real respaldado por estado global compartido, con gráfico de tendencia de los últimos 7 días",
+          "Home con la dirección de la wallet visible y copiable con un toque",
           "Enviar dinero con destinatario, monto y nota, validando saldo insuficiente",
           "Recibir dinero con código QR y dirección copiable",
           "Historial de transacciones con estilos de ingreso y egreso",

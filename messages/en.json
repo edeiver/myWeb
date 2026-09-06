@@ -103,7 +103,8 @@
         "description": "A minimal, glassmorphic mobile wallet with a dark, premium fintech-inspired UI. Send and receive money with QR codes, track transaction history and get animated in-app feedback — backed by a simulated API layer.",
         "tags": ["React Native", "Expo", "Glassmorphism", "React Context"],
         "features": [
-          "Real-time balance backed by shared global state",
+          "Real-time balance backed by shared global state, with a 7-day balance trend chart",
+          "Home screen with one-tap wallet address copy",
           "Send money with recipient, amount and note, with insufficient-balance handling",
           "Receive money via QR code and a copyable wallet address",
           "Transaction history with income/expense styling",
