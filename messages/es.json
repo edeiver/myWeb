@@ -85,17 +85,19 @@
       "pasameApp": {
         "name": "Pásame",
         "tagline": "Billetera fintech multi-moneda",
-        "description": "Un concepto de app fintech en React Native/Expo: tarjeta premium, balances en múltiples monedas (USD, COP, BTC), transferencias instantáneas a contactos frecuentes y depósitos vía banco, tarjeta, Apple Pay o cripto — con modo claro y oscuro completamente diseñados.",
+        "description": "Una app fintech en React Native/Expo, completamente funcional: tarjeta premium, balances en múltiples monedas (USD, COP, BTC), transferencias instantáneas a contactos frecuentes y depósitos vía banco, tarjeta, Apple Pay o cripto — con modo claro y oscuro completamente diseñados.",
         "tags": ["React Native", "Expo", "React Navigation", "Fintech", "Modo oscuro"],
         "features": [
           "Tarjeta premium con vencimiento y CVV, con acabado en gradiente",
           "Balances multi-moneda (USD, COP, BTC) en una sola vista",
           "Transferencias instantáneas a contactos frecuentes",
           "Depósitos vía banco, tarjeta, Apple Pay o cripto",
+          "Un asset browser dedicado con búsqueda en vivo y filtros (Todos los assets / Fiat / Trading)",
+          "Una pantalla de depósito con selección de método de pago y balance en tiempo real",
           "Modo claro y oscuro diseñados por completo, no solo invertidos",
           "Navegación fluida entre pantallas con React Navigation"
         ],
-        "stack": ["React Native", "Expo", "React Navigation", "JavaScript"]
+        "stack": ["React Native", "Expo", "React Navigation", "AsyncStorage", "JavaScript"]
       },
       "wallet": {
         "name": "Wallet",
