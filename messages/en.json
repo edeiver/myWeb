@@ -131,6 +131,23 @@
           "Optional Claude-powered (Haiku 4.5) session insight, grounded only in real logged data"
         ],
         "stack": ["Next.js 15", "React 19", "Tailwind CSS 4", "next-intl", "Claude API", "Turbopack"]
+      },
+      "edstore": {
+        "name": "edStore",
+        "tagline": "E-commerce app with authentication",
+        "description": "A React Native/Expo e-commerce app with a real, session-persisted login and register flow: product browsing across multiple categories, live search and filtering, a persistent shopping cart and a fully custom, themeable design system — all backed by a public REST API, no keys required.",
+        "tags": ["React Native", "Expo", "React Navigation", "Authentication", "E-commerce"],
+        "features": [
+          "Real login and register flow backed by AuthContext, with the session persisted across app restarts",
+          "Auth-aware navigation that automatically switches between the auth stack and the main app",
+          "Home screen with hero banner, category chips and a live product grid",
+          "Explore section with live search, category filtering and sorting by price/rating",
+          "Shopping bag with quantity adjustments, live order summary and a cart badge",
+          "Cart persisted across app restarts with AsyncStorage",
+          "Fully custom, themeable design system built from scratch — no UI library",
+          "Powered by a public REST API (Fake Store API) — no backend or API keys needed"
+        ],
+        "stack": ["React Native", "Expo", "React Navigation", "React Context", "AsyncStorage", "Fake Store API"]
       }
     }
   },

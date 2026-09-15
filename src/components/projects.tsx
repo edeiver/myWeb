@@ -32,6 +32,13 @@ const kuiperImages: ProjectImage[] = [
   { src: "/projects/kuiper/workouts.png", alt: "Kuiper workouts week plan" },
 ];
 
+const edstoreImages: ProjectImage[] = [
+  { src: "/projects/edstore/home.png", alt: "edStore home screen" },
+  { src: "/projects/edstore/explore.png", alt: "edStore explore and search" },
+  { src: "/projects/edstore/bag.png", alt: "edStore shopping bag" },
+  { src: "/projects/edstore/profile.png", alt: "edStore profile screen" },
+];
+
 export function Projects() {
   const t = useTranslations("projects");
   const viewCodeLabel = t("viewCode");
@@ -91,6 +98,23 @@ export function Projects() {
           />
 
           <ProjectCard
+            name={t("items.edstore.name")}
+            tagline={t("items.edstore.tagline")}
+            description={t("items.edstore.description")}
+            tags={t.raw("items.edstore.tags") as string[]}
+            features={t.raw("items.edstore.features") as string[]}
+            stack={t.raw("items.edstore.stack") as string[]}
+            images={edstoreImages}
+            github="https://github.com/edeiver/edStore"
+            viewCodeLabel={viewCodeLabel}
+            viewDemoLabel={viewDemoLabel}
+            comingSoonLabel={comingSoonLabel}
+            viewDetailLabel={viewDetailLabel}
+            featuresLabel={featuresLabel}
+            stackLabel={stackLabel}
+          />
+
+          <ProjectCard
             name={t("items.kuiper.name")}
             tagline={t("items.kuiper.tagline")}
             description={t("items.kuiper.description")}
@@ -107,6 +131,7 @@ export function Projects() {
             viewDetailLabel={viewDetailLabel}
             featuresLabel={featuresLabel}
             stackLabel={stackLabel}
+            reverse
           />
         </div>
       </div>
