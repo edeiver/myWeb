@@ -6,7 +6,7 @@ const centauriImages: ProjectImage[] = [
   { src: "/projects/centauri/welcome.png", alt: "Centauri welcome screen" },
   { src: "/projects/centauri/dashboard.png", alt: "Centauri dashboard" },
   { src: "/projects/centauri/ai-coach.png", alt: "Centauri AI Coach insights" },
-  { src: "/projects/centauri/transactions.png", alt: "Centauri transactions" },
+  { src: "/projects/centauri/welcome-light.png", alt: "Centauri welcome screen, light mode" },
 ];
 
 const centauriAllImages: ProjectImage[] = [
@@ -16,6 +16,8 @@ const centauriAllImages: ProjectImage[] = [
   { src: "/projects/centauri/dashboard.png", alt: "Centauri dashboard" },
   { src: "/projects/centauri/transactions.png", alt: "Centauri transactions" },
   { src: "/projects/centauri/ai-coach.png", alt: "Centauri AI Coach insights" },
+  { src: "/projects/centauri/welcome-light.png", alt: "Centauri welcome screen, light mode" },
+  { src: "/projects/centauri/login-light.png", alt: "Centauri login screen, light mode" },
 ];
 
 const pasameImages: ProjectImage[] = [
