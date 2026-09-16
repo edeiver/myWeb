@@ -7,6 +7,7 @@ import { Experience } from "@/components/experience";
 import { Skills } from "@/components/skills";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { ScrollCue } from "@/components/scroll-cue";
 
 export default async function Home({
   params,
@@ -28,6 +29,7 @@ export default async function Home({
         <Contact />
       </main>
       <Footer />
+      <ScrollCue />
     </>
   );
 }

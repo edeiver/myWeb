@@ -194,5 +194,8 @@
   "footer": {
     "rights": "All rights reserved.",
     "builtWith": "Built with Next.js, deployed on Vercel."
+  },
+  "scrollCue": {
+    "label": "Scroll for more"
   }
 }
