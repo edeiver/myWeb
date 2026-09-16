@@ -76,12 +76,30 @@
     "title": "Apps que he construido",
     "viewCode": "Ver código",
     "viewDemo": "Demo en vivo",
+    "viewBackend": "Repo del backend",
     "comingSoon": "Capturas próximamente",
     "viewAll": "Ver todas las capturas",
     "viewDetail": "Ver detalle completo",
     "featuresLabel": "Lo que incluye",
     "stackLabel": "Stack técnico",
     "items": {
+      "centauri": {
+        "name": "Centauri",
+        "tagline": "App fintech full-stack con IA",
+        "description": "Un tracker de gastos personales que construí de punta a punta: cliente en React Native/Expo respaldado por una API en Node/Express/PostgreSQL que escribí y desplegué yo mismo. Registra ingresos y gastos, visualiza el gasto como un sistema 'planetario', y periódicamente llama a un LLM para convertir las transacciones recientes en insights, recomendaciones y advertencias en lenguaje natural — una función de IA real y cacheada, no una pantalla estática.",
+        "tags": ["React Native", "Expo", "Node.js/Express", "PostgreSQL", "IA insights"],
+        "features": [
+          "Insights de gasto generados por IA (Groq), mostrados como tarjeta narrativa principal, cacheados 6h en el servidor por idioma",
+          "Auth con JWT y rotación de refresh tokens, tokens hasheados y renovación silenciosa en segundo plano",
+          "Ciclos de meta de gasto (presupuesto): define un monto y duración, recibe recordatorio y notificación al cerrar el ciclo",
+          "Tendencia de gasto mes a mes calculada en el cliente a partir de las transacciones ya obtenidas",
+          "Multi-idioma (inglés/español), incluyendo el texto del insight de IA",
+          "Selector de moneda USD/COP y tema claro/oscuro persistente",
+          "Backend propio con SQL parametrizado, contraseñas hasheadas con bcrypt y una suite de pruebas",
+          "Hoja nativa para compartir los insights de IA"
+        ],
+        "stack": ["React Native", "Expo", "React Navigation", "i18next", "Node.js", "Express", "PostgreSQL", "JWT"]
+      },
       "pasameApp": {
         "name": "Pásame",
         "tagline": "Billetera fintech multi-moneda",

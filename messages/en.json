@@ -76,12 +76,30 @@
     "title": "Apps I've built",
     "viewCode": "View code",
     "viewDemo": "Live demo",
+    "viewBackend": "Backend repo",
     "comingSoon": "Screenshots coming soon",
     "viewAll": "View all screenshots",
     "viewDetail": "View full detail",
     "featuresLabel": "What's built",
     "stackLabel": "Tech stack",
     "items": {
+      "centauri": {
+        "name": "Centauri",
+        "tagline": "Full-stack fintech app with AI insights",
+        "description": "A personal expense tracker I built end-to-end: a React Native/Expo client backed by a Node/Express/PostgreSQL API I wrote and deployed myself. It tracks income and expenses, visualizes spending as a 'planetary' system, and periodically calls an LLM to turn recent transactions into plain-language insights, recommendations and warnings — a real, cached AI feature, not a static screen.",
+        "tags": ["React Native", "Expo", "Node.js/Express", "PostgreSQL", "AI insights"],
+        "features": [
+          "AI-generated spending insights (Groq) surfaced as a narrative hero card, cached 6h server-side per language",
+          "JWT auth with refresh-token rotation, hashed refresh tokens and silent background renewal",
+          "Spending-goal / budget cycles: set an amount and duration, get re-prompted, notified when a cycle ends",
+          "Month-over-month expense trend computed client-side from already-fetched transactions",
+          "Multi-language (English/Spanish) including the AI insight text itself",
+          "USD/COP currency toggle and persisted dark/light theme",
+          "Self-built backend with parameterized SQL, bcrypt-hashed passwords and a small test suite",
+          "Native share sheet for AI insights"
+        ],
+        "stack": ["React Native", "Expo", "React Navigation", "i18next", "Node.js", "Express", "PostgreSQL", "JWT"]
+      },
       "pasameApp": {
         "name": "Pásame",
         "tagline": "Multi-currency fintech wallet",

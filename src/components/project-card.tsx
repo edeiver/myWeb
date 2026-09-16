@@ -24,6 +24,8 @@ function ProjectDetailModal({
   images,
   github,
   demo,
+  secondaryGithub,
+  secondaryGithubLabel,
   viewCodeLabel,
   viewDemoLabel,
   featuresLabel,
@@ -39,6 +41,8 @@ function ProjectDetailModal({
   images: ProjectImage[];
   github?: string;
   demo?: string;
+  secondaryGithub?: string;
+  secondaryGithubLabel?: string;
   viewCodeLabel: string;
   viewDemoLabel: string;
   featuresLabel: string;
@@ -215,6 +219,17 @@ function ProjectDetailModal({
                 {viewDemoLabel}
               </a>
             )}
+            {secondaryGithub && (
+              <a
+                href={secondaryGithub}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-accent"
+              >
+                <GithubIcon size={16} />
+                {secondaryGithubLabel}
+              </a>
+            )}
           </div>
         </div>
       </motion.div>
@@ -233,6 +248,8 @@ export function ProjectCard({
   allImages,
   github,
   demo,
+  secondaryGithub,
+  secondaryGithubLabel,
   viewCodeLabel,
   viewDemoLabel,
   comingSoonLabel,
@@ -253,6 +270,8 @@ export function ProjectCard({
   allImages?: ProjectImage[];
   github?: string;
   demo?: string;
+  secondaryGithub?: string;
+  secondaryGithubLabel?: string;
   viewCodeLabel: string;
   viewDemoLabel: string;
   comingSoonLabel: string;
@@ -375,6 +394,17 @@ export function ProjectCard({
           {viewDemoLabel}
         </a>
       )}
+      {secondaryGithub && (
+        <a
+          href={secondaryGithub}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-accent"
+        >
+          <GithubIcon size={16} />
+          {secondaryGithubLabel}
+        </a>
+      )}
       {viewDetailLabel && (
         <button
           type="button"
@@ -455,6 +485,8 @@ export function ProjectCard({
             images={gallery}
             github={github}
             demo={demo}
+            secondaryGithub={secondaryGithub}
+            secondaryGithubLabel={secondaryGithubLabel}
             viewCodeLabel={viewCodeLabel}
             viewDemoLabel={viewDemoLabel}
             featuresLabel={featuresLabel ?? ""}

@@ -2,6 +2,22 @@ import { useTranslations } from "next-intl";
 import { Reveal } from "./reveal";
 import { ProjectCard, type ProjectImage } from "./project-card";
 
+const centauriImages: ProjectImage[] = [
+  { src: "/projects/centauri/welcome.png", alt: "Centauri welcome screen" },
+  { src: "/projects/centauri/dashboard.png", alt: "Centauri dashboard" },
+  { src: "/projects/centauri/ai-coach.png", alt: "Centauri AI Coach insights" },
+  { src: "/projects/centauri/transactions.png", alt: "Centauri transactions" },
+];
+
+const centauriAllImages: ProjectImage[] = [
+  { src: "/projects/centauri/welcome.png", alt: "Centauri welcome screen" },
+  { src: "/projects/centauri/login.png", alt: "Centauri login screen" },
+  { src: "/projects/centauri/signup.png", alt: "Centauri sign up screen" },
+  { src: "/projects/centauri/dashboard.png", alt: "Centauri dashboard" },
+  { src: "/projects/centauri/transactions.png", alt: "Centauri transactions" },
+  { src: "/projects/centauri/ai-coach.png", alt: "Centauri AI Coach insights" },
+];
+
 const pasameImages: ProjectImage[] = [
   { src: "/projects/pasame-app/home-light.png", alt: "Pásame home screen, light mode" },
   { src: "/projects/pasame-app/deposit-methods-light.png", alt: "Pásame deposit methods" },
@@ -47,6 +63,7 @@ export function Projects() {
   const viewDetailLabel = t("viewDetail");
   const featuresLabel = t("featuresLabel");
   const stackLabel = t("stackLabel");
+  const viewBackendLabel = t("viewBackend");
 
   return (
     <section id="work" className="px-6 py-28">
@@ -61,6 +78,26 @@ export function Projects() {
         </Reveal>
 
         <div className="mt-14 flex flex-col gap-10">
+          <ProjectCard
+            name={t("items.centauri.name")}
+            tagline={t("items.centauri.tagline")}
+            description={t("items.centauri.description")}
+            tags={t.raw("items.centauri.tags") as string[]}
+            features={t.raw("items.centauri.features") as string[]}
+            stack={t.raw("items.centauri.stack") as string[]}
+            images={centauriImages}
+            allImages={centauriAllImages}
+            github="https://github.com/edeiver/centauri-app"
+            secondaryGithub="https://github.com/edeiver/centauri-ai-backend"
+            secondaryGithubLabel={viewBackendLabel}
+            viewCodeLabel={viewCodeLabel}
+            viewDemoLabel={viewDemoLabel}
+            comingSoonLabel={comingSoonLabel}
+            viewDetailLabel={viewDetailLabel}
+            featuresLabel={featuresLabel}
+            stackLabel={stackLabel}
+          />
+
           <ProjectCard
             name={t("items.pasameApp.name")}
             tagline={t("items.pasameApp.tagline")}
